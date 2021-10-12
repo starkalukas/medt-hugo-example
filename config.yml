@@ -1,0 +1,7 @@
+baseURL: "https://starkalukas.github.io/medt-hugo-example/"
+languageCode: "de"
+defaultContentLanguage: "de"
+title: "Chatbot"
+theme: "base16"
+
+unsafe: true

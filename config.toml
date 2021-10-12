@@ -1,8 +1,0 @@
-baseURL = "https://starkalukas.github.io/medt-hugo-example/"
-languageCode = "en"
-defaultContentLanguage = "en"
-title = 'Chatbot'
-theme = 'base16'
-
-[markup.goldmark.renderer]
-unsafe= true
