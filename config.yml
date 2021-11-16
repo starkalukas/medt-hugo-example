@@ -5,3 +5,21 @@ title: "Chatbot"
 theme: "lukas-theme"
 
 unsafe: true
+sectionPagesMenu: "main"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      pre: <i class='fa fa-heart'></i>
+      weight: 20
+    - identifier: home
+      name: Home
+      url: /
+      pre: <i class='fa fa-heart'></i>
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 15
