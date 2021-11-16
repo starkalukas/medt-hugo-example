@@ -23,3 +23,7 @@ menu:
       name: Posts
       url: /posts/
       weight: 15
+    - identifier: try
+      name: Try It Out!
+      url: /try/
+      weight: 30
