@@ -2,9 +2,13 @@
 <html>
 {{- partial "head.html" . -}}
 <body>
-{{- partial "header.html" . -}}
+{{- partial "nav.html" . -}}
+<div>
+    <p>Base of</p>
+</div>
 <div id="content">
-    {{- block "main" . }}{{- end }}
+    {{- block "main" . }}
+    {{- end }}
 </div>
 {{- partial "footer.html" . -}}
 {{- partial "script.html" . -}}

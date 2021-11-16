@@ -1,11 +1,7 @@
-<body>
-    {{ partial "nav.html" . }}
-    <h1>{{ .Title }}</h1>
-    {{ define "main" }}
-    <div id="home-jumbotron" class="jumbotron text-center">
-        <h1 class="title">{{ .Site.Title }}</h1>
-    </div>
-    {{ end }}
-</body>
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+<p>Index.html</p>
+<h1>{{ .Title }}</h1>
+<!--<div id="home-jumbotron" class="jumbotron text-center">-->
+<!--    <h1 class="title">{{ .Site.Title }}</h1>-->
+<!--</div>-->
+{{ end }}

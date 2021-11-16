@@ -1,5 +1,8 @@
-{{ partial "header.html" . }}
-
+{{ partial "head.html" . }}
+<div>
+    <p>List</p>
+</div>
+{{ partial "nav.html" .}}
 <h1>{{ .Title }}</h1>
 
 {{ range .Pages }}

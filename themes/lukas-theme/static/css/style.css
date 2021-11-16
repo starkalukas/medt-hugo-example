@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 /* LAYOUT */
 
 body {
@@ -7,6 +9,7 @@ body {
     max-width: 45rem;
     padding: 1rem;
     margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
 }
 
 .content {
