@@ -68,10 +68,14 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: red;
     color: white;
     text-align: center;
+}
+
+.space {
+    height: 5vh;
 }
 
 .nav-ul {
