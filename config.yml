@@ -18,12 +18,12 @@ menu:
       name: Home
       url: /
       pre: <i class='fa fa-heart'></i>
-      weight: 10
+      weight: 50
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 15
+      weight: 30
     - identifier: try
       name: Try It Out!
       url: /try/
-      weight: 30
+      weight: 10
