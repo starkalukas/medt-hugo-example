@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 body {
-    color: #333;
+    color: #404040;
     font-size: 125%;
     line-height: 1.5;
     max-width: 45rem;
     margin: 0;
     font-family: 'Overpass', sans-serif;
     overflow-x: hidden;
+}
+
+#banner {
+    position: absolute;
+    left: 0;
+    top: 6vh;
+    height: 88vh;
+    width: 100vw;
+    opacity: 70%;
+    z-index: -1;
+}
+
+#titleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    font-size: 4rem;
+    color: #e7ecf3;
 }
 
 /*.content {*/
@@ -69,7 +89,8 @@ body {
     left: 0;
     bottom: 0;
     width: 100vw;
-    background-color: red;
+    height: 6vh;
+    background-color: #9e54bd;
     color: white;
     text-align: center;
 }
@@ -83,8 +104,9 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    height: 6vh;
     overflow: hidden;
-    background-color: #333;
+    background-color: #e7ecf3;
 }
 
 .nav-li {
@@ -97,14 +119,14 @@ body {
 
 .nav-li a {
     display: block;
-    color: white;
+    color: #404040;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .nav-li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #9e54bd;
 }
 
 .active {

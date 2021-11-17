@@ -2,4 +2,6 @@
 title: "About"
 ---
 
-Here's a bit about me.
+# About
+
+This website is about the thesis from Felix Dumfarth and Lukas Starka about ML-Chatbots from 2021/2022.
