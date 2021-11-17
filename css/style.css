@@ -59,6 +59,11 @@ body {
 /*    margin-bottom: 0.25rem;*/
 /*}*/
 
+#content {
+    padding: 1.5rem;
+    width: 90vw;
+}
+
 .footer {
     position: fixed;
     left: 0;
